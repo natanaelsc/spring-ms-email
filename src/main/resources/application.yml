@@ -25,6 +25,10 @@ spring:
           starttls:
             enable: true
 
+  rabbitmq:
+    addresses: amqp://user:pass@127.0.0.1:5672
+    queue: ms.email
+
   datasource:
     url: jdbc:h2:mem:testdb
     driverClassName: org.h2.Driver
