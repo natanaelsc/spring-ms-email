@@ -1,7 +1,7 @@
-package com.ms.email;
+package com.ms.email.enums;
 
 public enum StatusEmail {
-    
-    SENT, 
+
+    SENT,
     ERROR;
 }
