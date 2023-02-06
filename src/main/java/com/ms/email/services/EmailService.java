@@ -1,6 +1,8 @@
 package com.ms.email.services;
 
 import java.time.LocalDateTime;
+import java.util.Optional;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -45,5 +47,9 @@ public class EmailService {
 
     public Page<EmailModel> findAll(Pageable pageable) {
         return emailRepository.findAll(pageable);
+    }
+
+    public Optional<EmailModel> findById(UUID emailId) {
+        return emailRepository.findById(emailId);
     }
 }
