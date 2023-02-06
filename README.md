@@ -25,7 +25,7 @@ Este é um microservice de envio de email por SMTP, com uso de RabbitMQ e armaze
 3. Este deve ser o corpo da requisição HTTP, o endpoint e header:
 
     ```http
-    POST http://localhost:8080/api/v1/email HTTP/1.1
+    POST http://127.0.0.1:8080/api/v1/emails HTTP/1.1
     Content-Type: application/json
 
     {

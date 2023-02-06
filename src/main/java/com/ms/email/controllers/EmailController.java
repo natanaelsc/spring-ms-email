@@ -16,7 +16,7 @@ import com.ms.email.services.EmailService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("api/v1/email")
+@RequestMapping("api/v1/emails")
 public class EmailController {
     
     @Autowired
