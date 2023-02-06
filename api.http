@@ -15,3 +15,7 @@ Content-Type: application/json
 ### Get all emails
 GET {{baseURL}} HTTP/1.1
 Content-Type: application/json
+
+### Get one email by Id
+GET {{baseURL}}/003800bc-d9de-4441-864d-29ce487ea41b HTTP/1.1
+Content-Type: application/json
